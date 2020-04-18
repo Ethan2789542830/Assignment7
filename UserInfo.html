@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <main>
+            <section class="form-wrapper">
+                <h1>Personal Information</h1>
+                <form action="Forms/AddressForm.php" method="GET">
+                    <div class="box-wrapper">
+                        <div class="form-field">
+                            <label for="last-name">Last Name: </label>
+                            <input id="last-name" autofocus required name="last-name" type="text">
+                            <div class="clear"></div>
+                        </div>
+                        <div class="form-field">
+                            <label for="first-name">First Name: </label>
+                            <input id="first-name" required name="first-name" type="text">
+                            <div class="clear"></div>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email: </label>
+                            <input id="email" name="email" type="text">
+                            <div class="clear"></div>
+                        </div>
+                        <div class="form-field">
+                            <label for="birthday">Date of Birth: </label>
+                            <input id="birthday" name="birthday" type="text">
+                            <div class="clear"></div>
+                        </div>
+                        <div class="form-field">
+                            <fieldset>
+                                <input type="checkbox" value="runner" id="runner" name="runner"><label for="runner">Are you a runner?</label> <br>
+                            </fieldset>
+                        </div>
+                        <div class="form-field">
+                            <fieldset>
+                                <legend>What's your favourite type of terrain?</legend>
+                                <input type="radio" id="Road" name="Terrain" value="Road"><label for="Road">Road</label> <br>
+                                <input type="radio" id="Track" name="Terrain" value="Track"><label for="Track">Track</label> <br>
+                                <input type="radio" id="Trail" name="Terrain" value="Trail"><label for="Trail">Trail</label> <br>
+                            </fieldset>
+                        </div>
+                        <div class="form-field">
+                            <label for="rating">How would you rate your shoes? </label>
+                            <input id="rating" name="rating" type="number" min="1" max="10">
+                            <div class="clear"></div>
+                        </div>
+                        <input type="submit">
+                    </div>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

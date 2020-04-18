@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr. 8, 2020, 2:43:50 p.m.
+    Author     : Ethan
+*/
+.box-wrapper{
+	padding: 10px;
+	border: 2px solid black;
+}
+
+.form-wrapper{
+	margin: 20px auto;
+	width: 700px;
+	box-shadow: 0 0 10px grey;
+	padding: 20px;
+}
+.form-field{
+	padding: 5px;
+}
+.form-field label{
+	width: 40%;
+	float: left;
+}
+.form-field input{
+	width: 55%;
+	float: right;
+	height: 40px;
+}
+.form-field input.reset{
+	float: left;
+	width: 45%;
+}
+.form-field input.submit{
+	float: right;
+	width: 45%;
+}
+
+.clear{
+	clear: both;
+}
+
+.flexSection{
+	display: flex;
+	flex-wrap: wrap; /*nowrap by default*/
+}
+.flexSection div{
+	margin: 10px;
+	width: 40%;
+	justify-content: center;
+}
+.flexSection div img{
+	display: block;
+}
